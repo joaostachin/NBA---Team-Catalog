@@ -1,2 +1,2 @@
-# NBA---Team-Catalog
+# NBA - Team Catalog
 NBA team catalog using React.js
