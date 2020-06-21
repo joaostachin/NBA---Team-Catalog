@@ -1,0 +1,68 @@
+.home-teams {
+    height: 980px;
+    width: 1330px;
+}
+
+.page-teams {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 62px;
+    padding-left: 62px;
+    padding-bottom: 30px;
+    border-color: rgb(218, 218, 218);
+    color: #ffffff;
+    flex-wrap: wrap;
+}
+
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(167, 167, 167);
+}
+
+.home-teams header{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.home-teams header img{
+    height: 80px;
+    width: 200px;
+}
+
+ 
+@media (max-width: 360px) {
+    .home-teams {
+        height: auto;
+        width: auto;
+    }     
+
+    .page-teams {
+        background-repeat: no-repeat;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 5px;
+        border-color: rgb(218, 218, 218);
+        color: #ffffff;
+        flex-wrap: wrap;
+    }
+
+    .home-teams header{
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+
+
+    
